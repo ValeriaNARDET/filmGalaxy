@@ -1,0 +1,32 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babelify": "^8.0.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "redux": "^1.0.0-rc"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "lite-server": "^2.3.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "redux-devtools": "^3.4.1"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  color: #fff;
+  background-color: #1a0f31;
+}
+
+li {
+  list-style-type: none;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 36px;
+  width: 36px;
+  background-image: url(./images/star_border.svg);
+  margin: 0 50px;
+}
+
+.App-header {
+  background-color: #1a0f31;
+  background-image: linear-gradient(#1a0f31 30%, #5e67c3 90%, #9198e5);
+  height: 150px;
+  padding: 20px;
+}
+
+.App-title {
+  font-size: 3em;
+  font-family: 'Kaushan Script', cursive;
+  word-spacing: 15px !important;
+  letter-spacing: 5px !important;
+  color: #f3cd48;
+  padding-bottom: 5px;
+  text-shadow: 7px -1px 12px #d68800, -1px 2px 12px #222, -15px -5px 19px #000000;
+  border-bottom: 5px double #f3cd48;
+}
+
+/*.App-intro {
+  font-size: large;
+}*/
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+footer {
+  height: 60px;
+  width: 100%;
+
+}
